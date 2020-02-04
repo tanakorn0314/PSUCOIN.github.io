@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+    express:
+        container_name: node-js
+        build: ./
+        ports: 
+            - "9000:9000"
